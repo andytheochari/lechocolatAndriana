@@ -11,6 +11,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
 
 </head>
@@ -18,7 +19,7 @@
 <body>
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top ">
         <div class="container">
-            <a class="navbar-brand" href="index.html">Le Chocolat</a>
+                <a class="navbar-brand" href="index.html"><img src="images/logo.png" height="40" width="54"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -46,13 +47,20 @@
                         recipes. Our creations will travel you in the chocolate world!</p>
                 </div>
                 <div class="col col-sm">
+                        <img src="images/logo.png" class="img-fluid">
                 </div>
             </div>
         </div>
     </header>
 
     <div class="container">
-        <div class="row row-content">
+            <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">About us</li>
+                    </ol>
+                  </nav>
+        <div class="row ">
             <div class="col 12">
                 <h3>About Us</h3>
                 <hr>
